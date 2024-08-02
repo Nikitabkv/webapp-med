@@ -15,7 +15,9 @@ export const MainPage = () => {
           </Link>
         </button>
         <button>
+          <Link to={'/review'}>
           Предложение/Жалобы
+          </Link>
         </button>
       </div>
       <div className={s.call_wrapper}>
