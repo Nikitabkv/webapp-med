@@ -6,7 +6,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  color: #393939FF;
+  color: var(--tg-theme-text-color);
 
   display: flex;
   flex-direction: column;

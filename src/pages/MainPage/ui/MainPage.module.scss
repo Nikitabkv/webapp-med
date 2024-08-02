@@ -25,10 +25,11 @@
     button {
         min-width: 240px;
         border: 2px solid #f0f0f0;
-        background-color: white;
+        background-color: var(--tg-theme-button-color);
         font-size: 18px;
         padding: 10px;
         border-radius: 12px;
+        color: var(--tg-theme-button-text-color);
 
         &:hover {
             border-color: #dc646f;
