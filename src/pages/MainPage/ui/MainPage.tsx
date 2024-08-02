@@ -1,4 +1,5 @@
 import s from './MainPage.module.scss'
+import {Link} from "react-router-dom";
 
 export const MainPage = () => {
   return (
@@ -9,7 +10,9 @@ export const MainPage = () => {
       </div>
       <div className={s.select}>
         <button>
-          Записаться
+          <Link to={'/appointment'}>
+            Записаться
+          </Link>
         </button>
         <button>
           Предложение/Жалобы

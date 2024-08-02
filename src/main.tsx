@@ -6,11 +6,16 @@ import {
 } from "react-router-dom"
 import './index.css'
 import MainPage from "@pages/MainPage"
+import DoctorAppointmentPage from "@pages/DoctorAppointmentPage"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
+  },
+  {
+    path: "/appointment",
+    element: <DoctorAppointmentPage />,
   },
 ], {
   basename: '/webapp-med/',
